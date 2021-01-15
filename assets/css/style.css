@@ -833,10 +833,12 @@ section {
   position: relative;
 }
 
-.services .icon-box .icon svg {
+.services .icon-box .icon img {
   position: absolute;
   top: 0;
   left: 0;
+  transition: 0.5s;
+fill: #f5f5f5;
 }
 
 .services .icon-box .icon svg path {
