@@ -128,7 +128,23 @@
     autoplay: true,
     dots: true,
     loop: true,
-    items: 1
+    items: 1,
+    // responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:2,
+            nav:false,
+            loop:true
+        }
+    }
   });
 
   // Porfolio isotope and filter
